@@ -1,5 +1,6 @@
 class PigLatinizer
 
+  # checks if input is a word or sentence and then pig latinize it using corresponding method
   def piglatinize(input_str)
     pl_word_or_sentence = (input_str.split(" ").length == 1) ? piglatinize_word(input_str) : piglatinize_sentence(input_str)
     puts pl_word_or_sentence
