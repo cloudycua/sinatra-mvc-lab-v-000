@@ -9,7 +9,7 @@ class PigLatinizer
 
   private
 
-  # checks if a vowel or consonant
+  # checks if a consonant (true) or vowel (false)
   def consonant?(char)
     !char.match(/[aAeEiIoOuU]/)
   end
