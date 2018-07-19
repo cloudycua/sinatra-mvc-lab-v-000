@@ -15,6 +15,7 @@ class PigLatinizer
   end
 
   def piglatinize_word(word)
+    binding.pry
     # word starts with vowel
     if !consonant?(word[0])
       word = word + "w"
