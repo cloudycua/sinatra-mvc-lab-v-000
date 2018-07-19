@@ -1,9 +1,9 @@
 class PigLatinizer
 
   def piglatinize(input_str)
-    word_or_sentence = (input_str.split(" ").length == 1) ? piglatinize_word(input_str) : piglatinize_sentence(input_str)
-    puts word_or_sentence
-    word_or_sentence
+    pl_word_or_sentence = (input_str.split(" ").length == 1) ? piglatinize_word(input_str) : piglatinize_sentence(input_str)
+    puts pl_word_or_sentence
+    pl_word_or_sentence
   end
 
   private
